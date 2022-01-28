@@ -1,0 +1,68 @@
+.advice {
+  .advice__header {
+    display: none;
+  }
+  padding-bottom: 70px;
+  margin-left: 380px;
+  .advice__box {
+    position: relative;
+    max-width: 753px;
+  }
+  &__box::before {
+    position: absolute;
+    content: "";
+    background-image: url("../images/“-open.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    left: -75px;
+    top: -35px;
+  }
+  &__box::after {
+    position: absolute;
+    content: "";
+    background-image: url("../images/“-close.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    top: 21px;
+    left: 765px;
+  }
+  .advice__blockquote {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    font-family: "Futura normal pt";
+    margin-bottom: 70px;
+  }
+  &__blockquote::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/quote-line.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 100px;
+    left: 307px;
+  }
+  &__blockquote::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/quote-line.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -30px;
+    left: 306px;
+  }
+  .advice__ending {
+    margin-left: 186px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #333333;
+    font-family: "Futura 500 pt";
+  }
+}

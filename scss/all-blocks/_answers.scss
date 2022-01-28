@@ -1,0 +1,80 @@
+.answers {
+  background-image: url(../images/subscription-img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: calc(50%) calc(50% - 25px);
+}
+.answers__inside {
+  padding-top: 255px;
+  padding-bottom: 300px;
+  padding-left: 180px;
+}
+.answers__title {
+  display: inline-block;
+  font-family: "Futura bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+.answers__form {
+  display: flex;
+}
+.answers__label {
+  margin-right: 21px;
+}
+.answers__input {
+  width: 355px;
+  padding: 18px 0px 12px 22px;
+  border: none;
+  outline: none;
+  background: #ffffff;
+  border-radius: 5px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  border: 2px solid transparent;
+}
+.answers__input:focus {
+  border: 2px solid #ffbd54;
+}
+.answers__input::placeholder {
+  font-family: "Futura normal";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #949494;
+}
+.answers__button {
+  font-family: "Futura 500";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  background: #333333;
+  border-radius: 3px;
+  padding: 15px 52px;
+  border: none;
+}
+.answers__button:hover {
+  color: #333333;
+  background-color: #ffbd54;
+}
+.answers__button:active {
+  opacity: 0.6;
+}

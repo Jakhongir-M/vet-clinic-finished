@@ -1,0 +1,17 @@
+.hero__btn {
+  font-family: "Futura normal pt";
+  border: none;
+  color: #fff;
+  padding: 15px 48px;
+  background: #333333;
+  border-radius: 3px;
+}
+.hero__btn:hover {
+  color: #333333;
+  background: #ffbd54;
+}
+.hero__btn:active {
+  color: #333333;
+  background: #ffbd54;
+  opacity: 0.4;
+}

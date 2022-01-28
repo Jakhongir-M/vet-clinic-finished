@@ -1,0 +1,30 @@
+.hero {
+  height: 900px;
+  background: url("../images/hero-bg1.png"), url(../images/hero-bg2.png);
+  background-size: 875px 835px, 319px 430px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: -206px -125px, 1105px 407px;
+}
+.hero__title {
+  width: 613px;
+  padding-top: 146px;
+  margin-left: 700px;
+}
+.hero__heading {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Futura bold";
+  font-size: 70px;
+  line-height: 64px;
+  padding-bottom: 29px;
+}
+.hero__color {
+  color: #78c0de;
+}
+.hero__desc {
+  font-size: 16px;
+  line-height: 21px;
+  font-family: "Futura normal pt";
+  color: #949494;
+  padding-bottom: 38px;
+}
